@@ -1,0 +1,3 @@
+/home/haimin/CLionProjects/ccf/20179-2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/haimin/CLionProjects/ccf/20179-2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/haimin/CLionProjects/ccf/20179-2/cmake-build-debug/CMakeFiles/20179_2.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Tailing_Zero.dir/main.cpp.o  -o Tailing_Zero 

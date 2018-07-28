@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/haimin/CLionProjects/ccf/20173-1/main.cpp
+iostream
+-
+queue
+-
+algorithm
+-
+cstring
+-
+

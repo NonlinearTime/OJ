@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Distance_QUery.dir/main.cpp.o  -o Distance_QUery 

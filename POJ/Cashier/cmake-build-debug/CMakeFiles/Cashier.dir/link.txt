@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Cashier.dir/main.cpp.o  -o Cashier 

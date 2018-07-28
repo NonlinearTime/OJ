@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Life_Forms.dir/main.cpp.o  -o Life_Forms 

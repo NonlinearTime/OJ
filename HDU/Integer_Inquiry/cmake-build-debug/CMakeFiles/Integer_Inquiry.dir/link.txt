@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Integer_Inquiry.dir/main.cpp.o  -o Integer_Inquiry 

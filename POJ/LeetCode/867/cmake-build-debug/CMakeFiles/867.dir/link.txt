@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/867.dir/main.cpp.o  -o 867 

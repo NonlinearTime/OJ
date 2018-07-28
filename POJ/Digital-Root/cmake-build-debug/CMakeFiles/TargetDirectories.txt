@@ -1,0 +1,3 @@
+/home/haimin/CLionProjects/Digital-Root/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/haimin/CLionProjects/Digital-Root/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/haimin/CLionProjects/Digital-Root/cmake-build-debug/CMakeFiles/Digital_Root.dir

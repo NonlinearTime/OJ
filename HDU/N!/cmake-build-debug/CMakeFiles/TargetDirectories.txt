@@ -1,0 +1,3 @@
+/home/haimin/CLionProjects/hdu/N!/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/haimin/CLionProjects/hdu/N!/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/haimin/CLionProjects/hdu/N!/cmake-build-debug/CMakeFiles/N_.dir

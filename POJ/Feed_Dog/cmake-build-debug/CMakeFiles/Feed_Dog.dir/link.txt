@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Feed_Dog.dir/main.cpp.o  -o Feed_Dog 

@@ -1,0 +1,3 @@
+/home/haimin/CLionProjects/Feed_Dog/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/haimin/CLionProjects/Feed_Dog/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/haimin/CLionProjects/Feed_Dog/cmake-build-debug/CMakeFiles/Feed_Dog.dir

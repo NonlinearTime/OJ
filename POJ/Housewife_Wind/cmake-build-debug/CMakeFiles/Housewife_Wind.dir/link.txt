@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Housewife_Wind.dir/main.cpp.o  -o Housewife_Wind 

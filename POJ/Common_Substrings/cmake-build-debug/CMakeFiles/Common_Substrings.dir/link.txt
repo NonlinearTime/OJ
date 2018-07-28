@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Common_Substrings.dir/main.cpp.o  -o Common_Substrings 

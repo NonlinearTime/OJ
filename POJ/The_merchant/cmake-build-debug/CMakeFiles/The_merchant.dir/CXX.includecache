@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/haimin/CLionProjects/The_merchant/main.cpp
+iostream
+-
+cstdio
+-
+cstring
+-
+vector
+-
+queue
+-
+cmath
+-
+algorithm
+-
+map
+-
+ctime
+-
+

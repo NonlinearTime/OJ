@@ -1,0 +1,3 @@
+/home/haines/CLionProjects/ccf/201712-4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/haines/CLionProjects/ccf/201712-4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/haines/CLionProjects/ccf/201712-4/cmake-build-debug/CMakeFiles/201712_4.dir

@@ -1,0 +1,3 @@
+/home/haimin/CLionProjects/Distance_QUery/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/haimin/CLionProjects/Distance_QUery/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/haimin/CLionProjects/Distance_QUery/cmake-build-debug/CMakeFiles/Distance_QUery.dir

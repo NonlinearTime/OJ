@@ -1,0 +1,3 @@
+/home/haimin/CLionProjects/MooFest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/haimin/CLionProjects/MooFest/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/haimin/CLionProjects/MooFest/cmake-build-debug/CMakeFiles/MooFest.dir

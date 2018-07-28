@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/20179_2.dir/main.cpp.o  -o 20179_2 

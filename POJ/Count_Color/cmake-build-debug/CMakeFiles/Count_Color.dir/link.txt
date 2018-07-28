@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Count_Color.dir/main.cpp.o  -o Count_Color 

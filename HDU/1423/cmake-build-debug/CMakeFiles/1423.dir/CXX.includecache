@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/haines/CLionProjects/hdu/1423/main.cpp
+iostream
+-
+string
+-
+cstring
+-
+algorithm
+-
+cmath
+-
+iomanip
+-
+unordered_map
+-
+vector
+-
+

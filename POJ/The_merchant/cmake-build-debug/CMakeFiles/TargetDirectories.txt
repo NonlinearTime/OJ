@@ -1,0 +1,3 @@
+/home/haimin/CLionProjects/The_merchant/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/haimin/CLionProjects/The_merchant/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/haimin/CLionProjects/The_merchant/cmake-build-debug/CMakeFiles/The_merchant.dir

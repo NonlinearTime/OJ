@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/haimin/CLionProjects/Tunnel_Warfare/main.cpp
+iostream
+-
+cstring
+-
+map
+-
+vector
+-
+stack
+-
+algorithm
+-
+list
+-
+cstdio
+-
+set
+-
+

@@ -1,0 +1,3 @@
+/home/haimin/CLionProjects/Power_Strings/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/haimin/CLionProjects/Power_Strings/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/haimin/CLionProjects/Power_Strings/cmake-build-debug/CMakeFiles/Power_Strings.dir
