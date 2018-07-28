@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="1" targetName="1" />
+      <config projectName="628" targetName="628" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6baad76b-791f-43d6-ab3e-cae4e00c1c33" name="Default" comment="" />
+    <list default="true" id="e1b8b1a7-355b-41a1-aedb-187db40af63a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +35,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="58" />
+            <state relative-caret-position="286">
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -109,12 +113,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.1">
-    <configuration name="1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="1" TARGET_NAME="1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1" RUN_TARGET_NAME="1" />
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="1" RUN_TARGET_NAME="1" EXPLICIT_BUILD_TARGET_NAME="all" />
+  <component name="RunManager" selected="Application.628">
+    <configuration name="628" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="628" TARGET_NAME="628" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="628" RUN_TARGET_NAME="628" />
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="628" RUN_TARGET_NAME="628" EXPLICIT_BUILD_TARGET_NAME="all" />
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.1" />
+      <item itemvalue="Application.628" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -122,17 +126,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6baad76b-791f-43d6-ab3e-cae4e00c1c33" name="Default" comment="" />
-      <created>1532748667195</created>
+      <changelist id="e1b8b1a7-355b-41a1-aedb-187db40af63a" name="Default" comment="" />
+      <created>1532757488363</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1532748667195</updated>
-      <workItem from="1532748668748" duration="5087000" />
+      <updated>1532757488363</updated>
+      <workItem from="1532757489689" duration="632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5087000" />
+    <option name="totallyTimeSpent" value="632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -169,28 +173,20 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>15</line>
-          <option name="timeStamp" value="2" />
+          <line>11</line>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file:///usr/include/c++/7/ext/new_allocator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2548">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="58" />
+        <state relative-caret-position="286">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
