@@ -6,19 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/haines/Documents/ACM/LeetCode/126/main.cpp
+/home/haines/Documents/ACM/LeetCode/4/main.cpp
 iostream
--
-string
 -
 vector
 -
 algorithm
 -
-queue
--
-stack
--
-time.h
+string
 -
 

@@ -4,6 +4,7 @@
 #include <algorithm>
 #include <queue>
 #include <stack>
+#include <time.h>
 
 using namespace std;
 
@@ -16,9 +17,14 @@ public:
     queue<int> q, qd;
 
     vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList) {
+        clock_t begin, end;
+
         wordList.push_back(beginWord);
         word_list.assign(wordList.begin(), wordList.end());
+        begin = clock();
         make_graph();
+        end = clock();
+        cout << "total time(Graph): " << double(end-begin)/CLOCKS_PER_SEC << endl;
         visit.resize(wordList.size(), 0);
         parent.resize(wordList.size());
         depth.resize(wordList.size(), 0x7fffffff);
@@ -29,10 +35,19 @@ public:
             if (wordList[i] == endWord) have_end = true, dst = i;
         }
         if (!have_begin || !have_end) return sol;
+        begin = clock();
         int len = BFS(src, dst);
+        end = clock();
+        cout << "total time(BFS): " << double(end-begin)/CLOCKS_PER_SEC << endl;
         if (!len) return sol;
+        begin = clock();
         DFS(dst, src, path);
+        end = clock();
+        cout << "total time(DFS): " << double(end-begin)/CLOCKS_PER_SEC << endl;
+        begin = clock();
         Transfer();
+        end = clock();
+        cout << "total time(Transfer): " << double(end-begin)/CLOCKS_PER_SEC << endl;
         return sol;
     }
 
@@ -60,33 +75,33 @@ public:
     int BFS (int src, int dst) {
         int d = 0, last_d;
         q.push(src);
-        qd.push(d);
         visit[src] = 1;
         depth[src] = d;
         bool reachable = false;
         int min_len = 0;
         while (!q.empty()) {
-            int head = q.front();
-            int hd = qd.front();
-            q.pop();
-            qd.pop();
-            d = hd;
+            int n = q.size();
 
+            for (int i = 0 ; i < n ; ++i) {
+                int head = q.front();
+                q.pop();
+                for (int i = 0; i < graph[head].size(); ++i) {
+                    int next = graph[head][i];
+                    if (next == dst) reachable = true, min_len = d + 1;
+                    if (depth[next] > depth[head]) {
+                        parent[next].push_back(head);
+                        depth[next] = d + 1;
+                    }
 
-            for (int i = 0; i < graph[head].size(); ++i) {
-                int next = graph[head][i];
-                if (next == dst) reachable = true, min_len = d + 1;
-                if (depth[next] > depth[head]) {
-                    parent[next].push_back(head);
-                    depth[next] = d + 1;
-                }
-
-                if (!visit[next]) {
-                    visit[next] = 1;
-                    q.push(next);
-                    qd.push(d + 1);
+                    if (!visit[next]) {
+                        visit[next] = 1;
+                        q.push(next);
+                    }
                 }
             }
+            d++;
+
+
         }
         return reachable ? min_len : 0;
     }
@@ -118,7 +133,7 @@ public:
 
 int main() {
     Solution s;
-    vector<string> t = {"hot","dot","dog","lot","log"};
+    vector<string> t = {"hot","dot","dog","lot","log","cog"};
     string beginWord = "hit";
     string endWord = "cog";
     vector<vector<string>> res = s.findLadders(beginWord, endWord, t);
