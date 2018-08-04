@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/haines/Documents/ACM/LeetCode/349/main.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+string
+-
+stack
+-
+map
+-
+unordered_map
+-
+
