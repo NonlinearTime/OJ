@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51b63fce-8249-44ca-975e-06be96f8d577" name="Default" comment="" />
+    <list default="true" id="d33cd953-4dd6-48be-b2cb-e5c8ed93a791" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,15 +10,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/686$repeated_string_match.coverage" NAME="repeated_string_match Coverage Results" MODIFIED="1534318946136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/201312_2$ISBN.coverage" NAME="ISBN Coverage Results" MODIFIED="1534332843601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="repeated_string_match.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/repeated_string_match.py">
+      <file leaf-file-name="ISBN.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ISBN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="264">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -28,7 +28,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/repeated_string_match.py" />
+        <option value="$PROJECT_DIR$/ISBN.py" />
       </list>
     </option>
   </component>
@@ -41,9 +41,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="520" />
-    <option name="y" value="80" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="374" />
+    <option name="y" value="83" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -52,8 +52,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="201312-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="201312-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -74,8 +84,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="repeated_string_match" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="686" />
+    <configuration name="ISBN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="201312-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -87,7 +97,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/repeated_string_match.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ISBN.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.repeated_string_match" />
+        <item itemvalue="Python.ISBN" />
       </list>
     </recent_temporary>
   </component>
@@ -104,26 +114,26 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="51b63fce-8249-44ca-975e-06be96f8d577" name="Default" comment="" />
-      <created>1534318527336</created>
+      <changelist id="d33cd953-4dd6-48be-b2cb-e5c8ed93a791" name="Default" comment="" />
+      <created>1534331609736</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1534318527336</updated>
+      <updated>1534331609736</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="374" y="83" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30246913" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295964" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18229167" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15642858" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="SciView" />
@@ -132,8 +142,8 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -146,10 +156,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/repeated_string_match.py">
+    <entry file="file://$PROJECT_DIR$/ISBN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="264">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
