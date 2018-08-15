@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ac49782-25da-4642-87ac-d6f0a600301f" name="Default" comment="" />
+    <list default="true" id="0b2a11cb-4e4c-456f-80fb-5fe91f4c8d84" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,15 +10,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/28$mplement_strStr.coverage" NAME="mplement_strStr Coverage Results" MODIFIED="1534312363862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/680$Valid_PalindromeII.coverage" NAME="Valid_PalindromeII Coverage Results" MODIFIED="1534317484970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mplement_strStr.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mplement_strStr.py">
+      <file leaf-file-name="Valid_PalindromeII.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Valid_PalindromeII.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="706">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -28,7 +28,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mplement_strStr.py" />
+        <option value="$PROJECT_DIR$/Valid_PalindromeII.py" />
       </list>
     </option>
   </component>
@@ -52,7 +52,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="680" type="b2602c69:ProjectViewProjectNode" />
+              <item name="680" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -74,8 +84,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="mplement_strStr" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="28" />
+    <configuration name="Valid_PalindromeII" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="680" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -87,7 +97,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mplement_strStr.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Valid_PalindromeII.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mplement_strStr" />
+        <item itemvalue="Python.Valid_PalindromeII" />
       </list>
     </recent_temporary>
   </component>
@@ -104,11 +114,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7ac49782-25da-4642-87ac-d6f0a600301f" name="Default" comment="" />
-      <created>1534312269988</created>
+      <changelist id="0b2a11cb-4e4c-456f-80fb-5fe91f4c8d84" name="Default" comment="" />
+      <created>1534313605367</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1534312269988</updated>
+      <updated>1534313605367</updated>
     </task>
     <servers />
   </component>
@@ -123,7 +133,7 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18214285" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16857143" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="SciView" />
@@ -146,10 +156,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mplement_strStr.py">
+    <entry file="file://$PROJECT_DIR$/Valid_PalindromeII.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="706">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
