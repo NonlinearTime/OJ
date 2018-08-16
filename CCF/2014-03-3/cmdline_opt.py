@@ -1,3 +1,4 @@
+#codinf=utf-8
 def main():
     opts_str = input()
     opts = {}
@@ -17,17 +18,22 @@ def main():
         line = input()
         out_line = 'Case ' + str(idx) + ': '
         params = line.split(' ')
-        for i in range(1, len(params) - 1):
-            if params[i][0] == '-' and params[i+1][0] != '-':
+        i = 1
+        while i < len(params):
+            if params[i][0] == '-':
+                if len(params[i]) != 2:
+                    break
                 if params[i][1] in param_opts:
+                    if i == len(params) - 1:
+                        break
                     param_opts[params[i][1]] = params[i+1]
-                else: break
-            if params[i][0] == '-' and params[i+1][0] == '-':
-                if params[i][1] in opts:
+                    i += 1
+                elif params[i][1] in opts:
                     opts[params[i][1]] = '1'
                 else: break
-        if params[len(params) - 1][0] == '-' and params[len(params) - 1][1] in opts:
-            opts[params[i][1]] = '1'
+            else: break
+            i += 1
+
         for item in sorted_opts:
             if item in opts and opts[item] != '':
                 out_line += '{} '.format('-' + item)
