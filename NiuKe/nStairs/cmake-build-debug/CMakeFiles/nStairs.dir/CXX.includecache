@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/haines/Documents/ACM/NiuKe/nStairs/main.cpp
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
