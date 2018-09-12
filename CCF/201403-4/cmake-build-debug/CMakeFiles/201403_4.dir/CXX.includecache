@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/haines/Documents/ACM/CCF/201403-4/main.cpp
+iostream
+-
+algorithm
+-
+cstring
+-
+vector
+-
+stack
+-
+queue
+-
+cmath
+-
+

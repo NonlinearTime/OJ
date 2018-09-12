@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="201312_3" targetName="201312_3" />
+      <config projectName="201403_4" targetName="201403_4" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96dd8b07-f015-4e0a-8d4c-9582fd98df7d" name="Default" comment="" />
+    <list default="true" id="1884cc28-cd76-4c66-a2d5-4bb9a00ac6be" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +26,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="1300">
+              <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -35,7 +35,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="stl_deque.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/include/c++/7/bits/stl_deque.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19292">
+              <caret line="742" selection-start-line="742" selection-end-line="742" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>item</find>
+    </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -78,8 +92,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -100,12 +114,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.201312_3">
-    <configuration name="201312_3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="201312_3" TARGET_NAME="201312_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="201312_3" RUN_TARGET_NAME="201312_3" />
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="201312_3" RUN_TARGET_NAME="201312_3" EXPLICIT_BUILD_TARGET_NAME="all" />
+  <component name="RunManager" selected="Application.201403_4">
+    <configuration name="201403_4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="201403_4" TARGET_NAME="201403_4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="201403_4" RUN_TARGET_NAME="201403_4" />
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="201403_4" RUN_TARGET_NAME="201403_4" EXPLICIT_BUILD_TARGET_NAME="all" />
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.201312_3" />
+      <item itemvalue="Application.201403_4" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -113,24 +127,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="96dd8b07-f015-4e0a-8d4c-9582fd98df7d" name="Default" comment="" />
-      <created>1536634822537</created>
+      <changelist id="1884cc28-cd76-4c66-a2d5-4bb9a00ac6be" name="Default" comment="" />
+      <created>1536671295254</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1536634822537</updated>
-      <workItem from="1536634823812" duration="7565000" />
-      <workItem from="1536671270595" duration="23000" />
+      <updated>1536671295254</updated>
+      <workItem from="1536671297144" duration="9164000" />
+      <workItem from="1536721048155" duration="25000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7588000" />
+    <option name="totallyTimeSpent" value="9189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12864584" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13385417" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="CMake" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -161,7 +175,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>68</line>
+          <line>89</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
@@ -169,38 +183,26 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
-        <watch expression="height" language="ObjectiveC" />
-        <watch expression="min_height" language="ObjectiveC" />
-        <watch expression="record" language="ObjectiveC" />
-        <watch expression="L" language="ASM" />
-        <watch expression="R" language="ASM" />
+        <watch expression="nodes" language="ObjectiveC" />
+        <watch expression="edges" language="ObjectiveC" />
+        <watch expression="dis" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>R</expression-string>
-        <language-id>ASM</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>L</expression-string>
-        <language-id>ASM</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>record</expression-string>
+        <expression-string>dis</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>min_height</expression-string>
+        <expression-string>edges</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>height</expression-string>
+        <expression-string>nodes</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -209,18 +211,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1352">
-          <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+        <state relative-caret-position="1118">
+          <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_deque.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19292">
+          <caret line="742" selection-start-line="742" selection-end-line="742" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/stl_deque.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19292">
+          <caret line="742" selection-start-line="742" selection-end-line="742" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="1300">
+          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
