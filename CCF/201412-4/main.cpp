@@ -40,7 +40,7 @@ int main() {
     int u, v, w;
     for (int i = 0 ; i < m ; ++i) {
         cin >> u >> v >> w;
-        E.emplace_back(edge(u, v, w));
+        E.push_back(edge(u, v, w));
     }
     sort(E.begin(), E.end(), cmp);
     res = 0;

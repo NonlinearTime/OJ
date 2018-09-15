@@ -43,8 +43,8 @@ void init() {
         for (int j = i + 1 ; j < n + m ; ++j) {
         if (is_valid(nodes[i], nodes[j])) {
 
-            edges[i].emplace_back(j, 1);
-            edges[j].emplace_back(i, 1);
+            edges[i].push_back(edge(j, 1));
+            edges[j].push_back(edge(i, 1));
 
         }
     }

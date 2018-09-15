@@ -1,9 +1,9 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <cstring>
+#include <string.h>
 #include <stack>
-#include <cmath>
+#include <math.h>
 
 using namespace std;
 
@@ -45,8 +45,8 @@ void make_graph() {
     int u, v;
     for (int i = 0 ; i < m ; ++i) {
         cin >> u >> v;
-        graphs[0][u].emplace_back(v);
-        graphs[1][v].emplace_back(u);
+        graphs[0][u].push_back(v);
+        graphs[1][v].push_back(u);
     }
 }
 

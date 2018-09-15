@@ -47,7 +47,7 @@ int main() {
     int u, v;
     for (int i = 0 ; i <  m ; ++i) {
         cin >> u >> v;
-        graph[u].emplace_back(v);
+        graph[u].push_back(v);
     }
     Dindex = answer = 0;
     for (int i = 1; i <=n ; ++i) {

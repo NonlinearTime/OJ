@@ -1,4 +1,4 @@
-# Install script for directory: /home/haines/CLionProjects/ccf/201712-4
+# Install script for directory: /home/haines/Documents/ACM/CCF/201712-4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/haines/CLionProjects/ccf/201712-4/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/haines/Documents/ACM/CCF/201712-4/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
